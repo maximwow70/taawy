@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('./fonts/Roboto-Light.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    font-family: 'Roboto-Light';
+}
+
+.taawy--about {
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: url('./img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.taawy--about-title {
+    padding: 40px 80px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    color: #333;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
